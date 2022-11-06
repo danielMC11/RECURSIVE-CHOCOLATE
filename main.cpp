@@ -39,12 +39,12 @@ int totalChocolates(int d, int p, int e){
 
 int main()
 {
-    int d,p,e;
+    int dinero,precio,envoltura;
     cout<<"\tChocolatina Jet"<<endl;
-    cout<<"Dinero: ";cin>>d;
-    cout<<"Precio: ";cin>>p;
-    cout<<"Envoltura: ";cin>>e;
-    cout<<"Se pueden Comer: "<<totalChocolates(d,p,e);
+    cout<<"Dinero: ";cin>>dinero;
+    cout<<"Precio: ";cin>>precio;
+    cout<<"Envoltura: ";cin>>envoltura;
+    cout<<"Se pueden Comer: "<<totalChocolates(dinero,precio,envoltura)<<" chocolates"<<endl;
 
     return 0;
 }
