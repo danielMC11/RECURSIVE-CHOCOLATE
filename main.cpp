@@ -36,6 +36,9 @@ int totalChocolates(int d, int p, int e){
     return c + canje(c,e,0);
 }
 
+void show(){
+    cout<<"Bienvenidos a Colombia Parceros";
+}
 
 int main()
 {
