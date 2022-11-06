@@ -40,6 +40,10 @@ void show(){
     cout<<"Bienvenidos a Colombia Parceros";
 }
 
+void show(int x){
+    cout<<"Show 2";
+}
+
 int main()
 {
     int dinero,precio,envoltura;
