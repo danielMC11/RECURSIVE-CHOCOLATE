@@ -1,5 +1,6 @@
 #include <iostream>
 #include "string"
+#include "vector"
 using namespace std;
 
 int canje(int envolturas, int exchange, int sobras){
