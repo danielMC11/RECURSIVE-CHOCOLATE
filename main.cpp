@@ -1,5 +1,5 @@
 #include <iostream>
-
+#include "string"
 using namespace std;
 
 int canje(int envolturas, int exchange, int sobras){
